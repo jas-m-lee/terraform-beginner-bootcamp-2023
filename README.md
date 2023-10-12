@@ -235,3 +235,11 @@ This file contains sensitive data. If you lose this file, you lose knowing the s
 ### Terraform Directory
 
 `.terraform` directory contains binaries of Terraform providers.
+
+### Terraform Destroy
+
+When you are ready to destroy resources, use the following command:
+
+`terraform destroy`
+
+Auto approve flag can be used to skip the approve prompt. e.g. `terraform apply --auto-approve`
